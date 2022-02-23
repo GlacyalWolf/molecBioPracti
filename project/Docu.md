@@ -19,6 +19,11 @@ cat contig_13.fa FGENESHSeq.fa geneIdSingelLine.fa GENESCANSeq.fa > preictedAll.
 ~~~
 
 The [results](results1.html) of the **T-Cofee** analisis are favorable to **FGENESH** so these are the more acurate gene prediction of these 3 methods.
+___
+## Gene prediction with BLASTX
+First we do a **BlastX** to ser for the [contig_13.fa](contig_13.fa) in the **nr database**.
+![Blast result](res_blast.png)
+We 
 
-## Step 2
+
 
