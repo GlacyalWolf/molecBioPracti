@@ -1,0 +1,24 @@
+## gff-version 2
+## date Tue Feb 22 22:46:12 2022
+## source-version: geneid v 1.2 -- geneid@imim.es
+# Sequence Contig13 - Length = 10248 bps
+# Optimal Gene Structure. 1 genes. Score = 160.48 
+# Gene 1 (Reverse). 18 exons. 1397 aa. Score = 160.48 
+Contig13	geneid_v1.2	Terminal	683	745	 0.03	-	0	Contig13_1
+Contig13	geneid_v1.2	Internal	799	1014	 8.36	-	0	Contig13_1
+Contig13	geneid_v1.2	Internal	1061	1559	15.00	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	1612	2013	26.01	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	2574	2749	 5.57	-	0	Contig13_1
+Contig13	geneid_v1.2	Internal	4962	5177	 6.61	-	0	Contig13_1
+Contig13	geneid_v1.2	Internal	5437	5723	12.10	-	2	Contig13_1
+Contig13	geneid_v1.2	Internal	5769	6352	34.73	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	6459	6623	 9.16	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	6668	6778	 0.06	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	6825	7061	11.28	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	7114	7227	 2.41	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	7275	7451	10.48	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	7506	7628	 1.27	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	7670	7780	 1.41	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	7829	7990	 9.45	-	1	Contig13_1
+Contig13	geneid_v1.2	Internal	9529	9707	 2.74	-	0	Contig13_1
+Contig13	geneid_v1.2	First	9838	10206	 3.83	-	0	Contig13_1
