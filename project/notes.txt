@@ -1,0 +1,9 @@
+geneId spice= *Caenorhabditis elegans*
+    1 gene
+    13 exons
+fgenesh spice= *Caenorhabditis elegans*
+    2 gene
+    15 exons
+genescan spice= *Homo sapiens*
+    2 genes 
+    0 exons
