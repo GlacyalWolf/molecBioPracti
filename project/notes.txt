@@ -9,5 +9,15 @@ genescan spice= *Homo sapiens*
     0 exons
 
 convertir el gff de el geneid a fasta per poder comparar els genes :)
-    bedtools getfasta -fi contig_13.fa -bed GENEId.gff > geneIDtoFa.fa
+    bedtools getfasta -fi contig_13.fa -bed GENEId.gff > abInitio/genes/geneIdGene.fa
+
+genescan gene 1,fgnesh gene2 adn geneId gene1 
+are the ones that are more or less in the same region
+
+now we are gona do a TCOFFEE aligment to see if is the same gene
+we put the secuences all in a same file
+TCOFEE_ANALYSIS_1.fa
+
+tornarem a fer un coffee de els gens sense el del geneid perque lem preedit 
+bansantnos en el genoma huma y la nostra secuencia es de un nematode
 
