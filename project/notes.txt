@@ -1,9 +1,13 @@
-geneId spice= *Caenorhabditis elegans*
-    1 gene
+geneId spice= *Caenorhabditis elegans* 
+    1 gene in reverse strand
     13 exons
 fgenesh spice= *Caenorhabditis elegans*
-    2 gene
+    2 gene in reverse strand
     15 exons
 genescan spice= *Homo sapiens*
     2 genes 
     0 exons
+
+convertir el gff de el geneid a fasta per poder comparar els genes :)
+    bedtools getfasta -fi contig_13.fa -bed GENEId.gff > geneIDtoFa.fa
+
