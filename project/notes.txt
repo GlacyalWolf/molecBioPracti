@@ -21,3 +21,6 @@ TCOFEE_ANALYSIS_1.fa
 tornarem a fer un coffee de els gens sense el del geneid perque lem preedit 
 bansantnos en el genoma huma y la nostra secuencia es de un nematode
 
+ara farem un tcofee comparant les secuencies del analysis 2 amb el resultat
+de la proteina del blast per saber si son la mateixa proteina
+
