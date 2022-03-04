@@ -21,6 +21,17 @@ TCOFEE_ANALYSIS_1.fa
 tornarem a fer un coffee de els gens sense el del geneid perque lem preedit 
 bansantnos en el genoma huma y la nostra secuencia es de un nematode
 
+look for genes 
+exonerate -m p2g --showtargetgff -q Blast_caebren.fa -t contig_13.fa -S F| egrep -w exon > blast_caeb.gff
+
+transform to fa
+bedtools getfasta -fi contig_13.fa -bed blast_caeb.gff >blast_multLine.fa
+sed -e '2,$s/>.*//' blast_multLine.fa |grep -v '^$' > abInitio/genes/blast_gene.fa
+
 ara farem un tcofee comparant les secuencies del analysis 2 amb el resultat
-de la proteina del blast per saber si son la mateixa proteina
+de la proteina del blast per saber si son la mateixa proteina y coincideixen lo suficient
+com per determinar que es tracta de una proteina molt similar o igual a la del blast.
+
+busquem les anotacions
+
 
