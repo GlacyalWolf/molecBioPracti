@@ -1,5 +1,9 @@
 
+# Introduction
 
+With the knowledge learned during these practical sessions we are going to try to compute a transcription and translation from our contig. 
+
+The main objectives were to annotate the genes included in our contig and to functionally characterize the predicted proteins. We will have to find of which organism the sequence is, by comparing the protein sequence with the protein sequence of other nematode. 
 # Methods
 
 First of all we have used blastx to determine from the contig13 the proteins that we can obtain from this sequence related to our organism. After that, we store the protein fasta of one of the matches, the one with the smallest e-value.                    
@@ -26,5 +30,14 @@ In the [geneID](abInitio/genes/geneIdGene1.fa) we catche 1 gene and 13 exons, wi
 
 We have determined that FGENESH and GENESCAN that have 2 genes we catch the more centric of the 2 to comaprate becaus the other ones are situated in oposite extremes.
 
+To proof that the genes are the same we do a [TCOFEE](abInitio/TCOFFEE/analysis2.png) of them.
+
 ## Homology based
 The gene of the blasx is one of the spices *Caenorhabditis brenneri* is the same gene as the Ab Initio verified with the aligment done in the [TCOFFEE](abInitio/TCOFFEE/analisis3.png)
+
+## Functional anotation
+In the  we have no go terms.
+![iprscan](iprscan/iprscan_analysis.png)
+To validate that we have no go terms and it's not an error we do a panther serch of the *Caenorhabditis brenneri* and we observe that the majority of the genome is not anotated so is very probable that the gene is not anotated.
+
+![panther](iprscan/pantherCaebren.png)
