@@ -41,3 +41,6 @@ In the  we have no go terms.
 To validate that we have no go terms and it's not an error we do a panther serch of the *Caenorhabditis brenneri* and we observe that the majority of the genome is not anotated so is very probable that the gene is not anotated.
 
 ![panther](iprscan/pantherCaebren.png)
+
+# Conclusion
+We can't anotate the gene because the *Caenorhabditis brenneri* have a lot of the regions not anotated and these gene in specific **CAEBREN_05669** is a strange gene that usually doesn't express so they dont have cientific evidence to especify the function. 
